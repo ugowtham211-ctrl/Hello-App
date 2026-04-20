@@ -1,22 +1,18 @@
-public class helo {
+public class HelloUC7 {
     public static void main(String[] args) {
 
+        String greeting;
+
+        // Check if no arguments are provided
         if (args.length == 0) {
-            System.out.println("Hello, World!");
+            greeting = "Hello, World!";
         } else {
-            StringBuilder names = new StringBuilder();
-
-            boolean first = true;
-
-            for (String name : args) {
-                if (!first) {
-                    names.append(", ");
-                }
-                names.append(name);
-                first = false;
-            }
-
-            System.out.println("Hello, " + names + "!");
+            // Join all arguments with ", "
+            String names = String.join(", ", args);
+            greeting = "Hello, " + names + "!";
         }
+
+        // Display the greeting
+        System.out.println(greeting);
     }
 }
