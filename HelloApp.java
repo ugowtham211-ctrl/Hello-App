@@ -1,4 +1,3 @@
-@@ -0,0 +1,7 @@
 public class hello {
     public static void main(String[] args) {
         // Get the name from command-line argument
