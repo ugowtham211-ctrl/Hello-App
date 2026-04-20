@@ -1,4 +1,4 @@
-public class HelloUC7 {
+  public class HelloUC7 {
     public static void main(String[] args) {
 
         String greeting;
@@ -15,4 +15,3 @@ public class HelloUC7 {
         // Display the greeting
         System.out.println(greeting);
     }
-}
